@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootingApp.Api", "ShootingApp.Api\ShootingApp.Api.csproj", "{32B12A49-39B2-406A-A049-92F135A4A87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootingApp.Client", "ShootingApp.Client\ShootingApp.Client.csproj", "{C331A0CC-1997-4201-AD02-529B099E44FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B12A49-39B2-406A-A049-92F135A4A87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B12A49-39B2-406A-A049-92F135A4A87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B12A49-39B2-406A-A049-92F135A4A87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B12A49-39B2-406A-A049-92F135A4A87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C331A0CC-1997-4201-AD02-529B099E44FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9106950-7B7F-4C50-8217-945D78AEDA03}
+	EndGlobalSection
+EndGlobal

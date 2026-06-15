@@ -1,0 +1,6 @@
+@ShootingApp.Api_HostAddress = http://localhost:5121
+
+GET {{ShootingApp.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
