@@ -29,5 +29,11 @@ namespace ShootingApp.Api.Controllers
             await _repository.ClearAllSessionsAsync();
             return Ok();
         }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var sessions = await _repository.GetAllAsync();
+            return Ok(sessions);
+        }
     }
 }
