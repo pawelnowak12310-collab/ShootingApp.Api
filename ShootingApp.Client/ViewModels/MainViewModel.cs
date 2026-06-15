@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using System.Net.Http.Json;
 using ShootingApp.Client.Models;
-using System.Collections.ObjectModel; // Upewnij się, że masz folder Models z klasą ShootingSession
+using System.Collections.ObjectModel; 
 
 namespace ShootingApp.Client.ViewModels
 {
@@ -38,7 +38,7 @@ namespace ShootingApp.Client.ViewModels
         {
             var data = await _httpClient.GetFromJsonAsync<List<ShootingSession>>("api/shootingsessions");
 
-            if (data != null) // <--- Dodaj to zabezpieczenie
+            if (data != null) 
             {
                 Sessions.Clear();
                 foreach (var item in data)
